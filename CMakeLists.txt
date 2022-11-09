@@ -9,8 +9,7 @@ find_package(catkin REQUIRED  COMPONENTS roscpp tf geometry_msgs)
 include(ExternalProject)
 
 ExternalProject_Add(act3dg
-    GIT_REPOSITORY https://github.com/marcoesposito1988/ATC3DGTracker.git
-    GIT_TAG fe2dad56dae6f543550c58d2dfc5bf011535b816
+    GIT_REPOSITORY https://github.com/kurransingh/ATC3DGTracker.git
     PREFIX "${CMAKE_CURRENT_BINARY_DIR}"
     # Disable install step
     INSTALL_COMMAND ""
